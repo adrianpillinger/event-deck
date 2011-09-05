@@ -17,7 +17,7 @@
                     
                     {
                         "id" : 3,
-                        "question" : "Gender?", 
+                        "question" : "Multi choice question?", 
                         "answerType" : "ENUM", 
                         "values" : ["Male", "Female"]
                     },
@@ -28,6 +28,13 @@
                         "answerType" : "FREE_TEXT", 
                         "min" : 0, 
                         "max" : 255
+                    },
+                                        
+                    {
+                        "id" : 5,
+                        "question" : "What is today's date?", 
+                        "answerType" : "DATE"
                     }
+
                 ]
 } 

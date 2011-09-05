@@ -4,40 +4,31 @@
 		<meta charset="utf-8" />
 		<title>Inspection Form</title>
 		<link type="text/css" href="css/cupertino/jquery-ui-1.8.16.custom.css" rel="stylesheet" />	
-		<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
-		<script type="text/javascript" src="js/inspection.js"></script>
+		<script data-main="scripts/main" src="scripts/require-jquery.js"></script>
 	</head>
 	<body>
     
         <div id="templates" style="display: none; ">
-        
             <div id="FREE_TEXT">
                 <input type="text" size="20" maxlength="20" value="Enter text" />
             </div>
-            
             <div id="ENUM">
                 <select>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
                 </select>
             </div>
-            
-            <div id="DATE">
-                <input type="text" class="datepicker" />
+            <div id="DATE" class="date">
+                <input type="text" />
             </div>
-            
         </div>
         
 
         <div id="formcontent">
             <div id="title"></div>
-			<div id="questions">
-            </div>
-
-			<!--<input type="text" id="datepicker" />-->
-
+			<div id="questions"></div>
 		</div>
+		<input type="text" id="datepicker"/>
 
 	</body>
 </html>
